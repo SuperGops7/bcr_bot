@@ -86,6 +86,7 @@ rosdep install --from-paths src --ignore-src -r -y
 
 ```bash
 colcon build --packages-select bcr_bot
+source install/setup.bash
 ```
 
 ### Binary Install
@@ -144,6 +145,7 @@ rosdep install --from-paths src --ignore-src -r -y
 
 ```bash
 colcon build --packages-select bcr_bot
+source install/setup.bash
 ```
 
 ### Binary Install
@@ -203,6 +205,7 @@ rosdep install --from-paths src --ignore-src -r -y
 
 ```bash
 colcon build --packages-select bcr_bot
+source install/setup.bash
 ```
 
 ### Run
@@ -254,6 +257,7 @@ rosdep install --from-paths src --ignore-src -r -y
 
 ```bash
 colcon build --packages-select bcr_bot
+source install/setup.bash
 ```
 
 ### Run
